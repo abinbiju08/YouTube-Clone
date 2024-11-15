@@ -1,0 +1,66 @@
+
+   .Subscribe {
+      background-color: rgba(149, 18, 18, 0.941);
+      color: white;
+      border: none;
+      height: 36px;
+      width: 100px;
+      border-radius: 10px;
+      cursor: pointer;
+   }
+   .cart {
+      background-color: rgb(231, 255, 14);
+      color: black;
+      border: none;
+      height: 40px;
+      width: 110px;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-right: 30px;
+   }
+   
+
+   .Buy {
+      background-color: orange;
+      border: none;
+      height: 40px;
+      width: 110px;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-right: 30px;
+      transition: background-color 0.5s, color 0.5s;
+      vertical-align: top;
+   }
+
+   .join {
+      background-color: white;
+      color: blue;
+      border-color: blue;
+      height: 30px;
+      width: 70;
+      cursor: pointer;
+      transition: background-color 0.5s, color 0.5s;
+      vertical-align: top;
+      padding-top: 0px;
+      padding-bottom: 3px;
+
+   }
+
+   .join:hover {
+      background-color: blue;
+      color: white;
+
+   }
+
+   .join:active {
+      opacity: 0.5;
+   }
+
+   .Buy:hover {
+      background-color: orangered;
+      color: white;
+   }
+
+   .Buy:active {
+      opacity: 0.5;
+   }

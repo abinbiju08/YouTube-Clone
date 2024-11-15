@@ -1,0 +1,98 @@
+.general{
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    text-align: end;
+    font-weight: 800;
+    color: white;
+  }
+  body{
+    background-color: #000;
+    font-family: cursive;
+  }
+  h1{
+    font-family: cursive;
+    color: antiquewhite;
+    text-align: center;
+  }
+  .sun{
+    width: 200px;
+    height: 200px;
+    background-image: url('https://plus.unsplash.com/premium_photo-1670210080045-a2e0da63dd99?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGhlJTIwc3VufGVufDB8fDB8fHww');  
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .cont img :hover{
+    transform: scale(1.5,1.5);
+    
+  }
+  .mercury{
+    width: 50px;
+    height: 50px;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/fjbeeRiPRQjQNhizwy7cWX-1200-80.jpg'); 
+    top: 170px;
+    left: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+  .venus{
+    width: 100px;
+    height: 100px;
+    background-image: url('https://science.nasa.gov/wp-content/uploads/2023/06/Venus-jpeg.webp?w=4096&format=png&crop=1'); 
+    top: 200px;
+    left: 360px;
+  
+  }
+  .earth{
+    width: 110px;
+    height: 110px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz5R0Z1hEAB4qMl7qk6WOLvckrMFYJHEnR5A&s'); 
+    top: 260px;
+    left: 460px;
+    background-size: cover;
+    background-position: center;
+  }
+  .mars{
+    width: 90px;
+    height: 90px;
+    background-image: url('https://starwalk.space/gallery/images/mars-the-ultimate-guide/1920x1080.jpg'); 
+    top: 290px;
+    left: 620px;
+    background-size: cover;
+    background-position: center;
+  }
+  .jupiter{
+    width: 190px;
+    height: 190px;
+    background-image: url('https://media.istockphoto.com/id/1409917723/photo/abstract-planet-and-space-background.jpg?s=612x612&w=0&k=20&c=qJXdVchZotVl2ak_VxO2XQLyFUgLpQe73l1dBYPRXvQ='); 
+    top: 400px;
+    left: 700px;
+  }
+  .saturn{
+    width: 165px;
+    height: 165px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk6gwdZ3XVssZg967vb3iJ60C8jBC0ksM4Ag&s'); 
+    top: 460px;
+    left: 930px;
+  }
+  .ura{
+    width: 105px;
+    height: 105px;
+    background-image: url('https://media.istockphoto.com/id/1199283538/photo/planet-uranus.jpg?s=612x612&w=0&k=20&c=ywhCXwqp1G17DDGvSN4FoFHcBr24W__TjulMRju4ZWk='); 
+    top: 500px;
+    left: 1130px;
+    background-size: cover;
+    background-position: center;
+  }
+  .nep{
+    width: 95px;
+    height: 95px;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/PezBzd9Fehsq9XWgWMauVV-1200-80.jpg'); 
+    top: 560px;
+    left: 1240px;
+  }
+  .general:hover{
+    transform: scale(1.5);
+    transition: all 0.5s;
+  }

@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* This gap applies to all items */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text for headings */
+}
+
+/* Ovals */
+.oval1 {
+    height: 200px;
+    width: 300px;
+    border: 10px solid rgb(17, 0, 255);
+    border-radius: 50%;
+}
+
+.oval2 {
+    height: 200px;
+    width: 300px;
+    border: 5px dashed blueviolet;
+    border-radius: 50%;
+}
+
+.oval3 {
+    height: 200px;
+    width: 300px;
+    border: 10px double rgb(255, 3, 3);
+    border-radius: 50%;
+}
+
+/* Circles */
+.circle1, .circle2, .circle3 {
+    height: 200px;
+    width: 200px;
+    border: 10px solid rgb(17, 0, 255);
+    border-radius: 50%;
+    margin: 50px; /* Margin to create space around the circle */
+    display: flex; /* Flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+}
+
+.circle-text {
+    padding: 10px; /* Padding for text */
+}
+
+/* Rectangles */
+.rect1, .rect2, .rect3 {
+    width: 360px;
+    height: 202px;
+    border: 10px solid rgb(17, 0, 255);
+}
+
+/* Specific styles for rectangles */
+.rect2 {
+    border: 5px dashed blueviolet;
+}
+
+.rect3 {
+    border: 10px double rgb(255, 3, 3);
+}

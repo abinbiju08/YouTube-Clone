@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://wallpapercave.com/wp/wp3012300.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    height: 350px;
+    width: 350px;
+    box-shadow: 5px 5px 15px rgb(209, 209, 107);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    animation-name: arts;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes arts {
+    0% {
+        background-image: url('https://wallpaperaccess.com/full/295859.jpg');
+        top: 0px;
+        left: 0px;
+    }
+    10% {
+        background-image: url('http://images.huffingtonpost.com/2015-12-15-1450213027-821769-456674c5de1c1803f29395294_stpetersbasilicaromenightcralamy.jpg');
+        top: 0px;
+        left: 180px;
+    }
+    20% {
+        background-image: url('https://media.cntraveler.com/photos/566736286ad1fa4633ecd1e5/master/pass/chianti-tuscany-cr-getty.jpg');
+        top: 0px;
+        left: 360px;
+    }
+    30% {
+        background-image: url('http://getwallpapers.com/wallpaper/full/8/b/5/1085265-gorgerous-world-beautiful-places-wallpapers-2560x1920-for-lockscreen.jpg');
+        top: 0px;
+        left: 560px;
+    }
+    40% {
+        background-image: url('https://media.cntraveler.com/photos/5baa751ec4c3254b31283ffd/master/pass/GettyImages-173051814.jpg');
+        top: 0px;
+        left: 760px;
+    }
+    50% {
+        background-image: url('https://media.cntraveler.com/photos/59bb6a7ef8d76b74aa5b925b/master/pass/Bamberg-GettyImages-505722679.jpg');
+        top: 0px;
+        left: 960px;
+    }
+    60% {
+        background-image: url('https://tse1.mm.bing.net/th?id=OIP.p36iBhE_kiYy34HejDUu7wHaE8&pid=Api&P=0&h=180');
+        top: 370px;
+        left: 960px;
+    }
+    70% {
+        background-image: url('https://media.cntraveler.com/photos/5656ac655e7aeb7a6e219366/master/pass/lavender-field-provence-cr-alamy.jpg');
+        top: 370px;
+        left: 700px;
+    }
+    80% {
+        background-image: url('https://cdn.ebaumsworld.com/mediaFiles/picture/2452130/85386506.jpg');
+        top: 370px;
+        left: 400px;
+    }
+    90% {
+        background-image: url('https://wallpaperaccess.com/full/355004.jpg');
+        top: 370px;
+        left: 0px;
+    }
+    100% {
+        background-image: url('https://tse3.mm.bing.net/th?id=OIP.FtWgk70cIbh6C7BkRVGAAAHaE7&pid=Api&P=0&h=180');
+        top: 0px;
+        left: 0px;
+    }
+}
+
+    

@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1725408000&semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1 {
+    height: 450px;
+    width: 450px;
+    margin: 50px auto;
+    box-shadow: 5px -5px 15px black;
+    position: relative;
+    overflow: hidden;
+}
+
+.container1 img {
+    height: inherit;
+    width: inherit;
+    transition: all 1s;
+}
+
+.container1 .text {
+    position: absolute;
+    top: 0;
+    bottom: -100%; 
+    color: rgb(212, 250, 248);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    line-height: 35px;
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: perspective(400px) rotateY(90deg); /* Start with text rotated */
+    transform-origin: right;
+    transition: all 1s ease; 
+}
+
+.container1:hover .text {
+    right: 0; 
+    transform: perspective(400px) rotateY(0deg); 
+}
+
+.container1:hover img {
+    transform: scale(1.5, 1.5); 
+}
+
+.container {
+    height: 350px;
+    width: 350px;
+    box-shadow: 5px 5px 15px rgb(193, 108, 169);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+
+    animation-name: foods;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes foods {
+    0% {
+        background-image: url('https://imgcdn.floweraura.com/famous-food-of-bangalore-cover.jpg');
+        top: 0px;
+        left: 0px;
+    }
+    10% {
+        background-image: url('https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/cake-blog-23/idli-vada-a-south-indian-staple.jpg');
+        top: 0px;
+        left: 180px;
+    }
+    20% {
+        background-image: url('https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/cake-blog-23/bisi-bele-bath-a-hearty-rice-dish.jpg');
+        top: 0px;
+        left: 360px;
+    }
+    30% {
+        background-image: url('https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/cake-blog-23/mangalorean-fish-curry-coastal-delights.jpg');
+        top: 0px;
+        left: 560px;
+    }
+    40% {
+        background-image: url('https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/cake-blog-23/mysore-pak-a-sweet-sensation.jpg');
+        top: 0px;
+        left: 760px;
+    }
+    50% {
+        background-image: url('https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/cake-blog-23/masala-dosa-a-bangalorean-twist.jpg');
+        top: 0px;
+        left: 960px;
+    }
+    60% {
+        background-image: url('https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/cake-blog-23/chow-chow-bath-a-breakfast-delight.jpg');
+        top: 370px;
+        left: 960px;
+    }
+    70% {
+        background-image: url('https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/cake-blog-23/filter-coffee-a-south-indian-essence.jpg');
+        top: 370px;
+        left: 700px;
+    }
+    80% {
+        background-image: url('https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/cake-blog-23/mutton-pulao-a-meat-lover-s-delight.jpg');
+        top: 370px;
+        left: 400px;
+    }
+    90% {
+        background-image: url('https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/cake-blog-23/vada-pav-the-mumbai-bangalore-fusion.jpg');
+        top: 370px;
+        left: 0px;
+    }
+    100% {
+        background-image: url('https://imgcdn.floweraura.com/famous-food-of-bangalore-cover.jpg');
+        top: 0px;
+        left: 0px;
+    }
+
+}
