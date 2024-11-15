@@ -1,48 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube Clone</title>
-    <link rel="stylesheet" href="youtube.css">
-</head>
-<body>
-    <input class="search-bar" type="search" placeholder="search">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        
+        <title>Youtube Clone</title>
+        <meta name="description" content="High-quality software engineering and interviewing lessons | Become a software engineer or advance in your current career.">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/video.css">
 
-    <div class="video-preview">
-    <div>
-        <img class="thumbnail"    src="https://i.ytimg.com/vi/UPrkC1LdlLY/maxresdefault.jpg">
-    </div>
-    </div>
-   <div>
-   <div class="channel-picture">
-    <img class="profile-picture" src="channelprofile/channels4_profile.jpg">
-   <div class="video-info">
-    <p class="caption">Survive 100 Days In Nuclear Bunker, Win $500,000</p>
-    <p class="ytber">MrBeast</p>
-    <p class="views">207M views  &#x2022; 3 months ago </p>
-   </div>
-</div>
-    </div>
+    </head>
+    <body>
+        
+            <div class="YouTube">
+                <header class="header">
+                    <div class="left-section">
+                        <img class="hamburger-menu" src="symbols/hamburger-menu.svg">
+                        <img class="youtube-logo" src="symbols/youtube-logo.svg">
+                    </div>
+                    
+                    <div class="middle-section">
+                        <input class="search-bar" type="text" placeholder="Search">
+                        <button class="search-button">
+                            <img class="search-icon"  src="symbols/search.svg">
+                            <div class="tooltip">Search</div>
+                        </button>
+                        <button class="voice-search tooltip-container">
+                            <img src="symbols/voice-search-icon.svg">
+                            <div class="tooltip">Search with your voice</div>
+                        </button>
+                    </div>
+                    <div class="right-section">
+                        <div class="upload-icon-container">
+                        <img class="upload-icon-container" src="symbols/upload.svg">
+                        <div class="tooltip">Create</div>
+                    </div>
+                
+                        <div class="upload-icon-container">
+                            <img class="icon" src="symbols/youtube-apps.svg">
+                            <div class="tooltip">YouTube apps</div>
+                        </div>
+                        <div class="upload-icon-container">
+                            <img class="icon" src="symbols/notifications.svg">
+                            <div class="notification-count">3</div>
+                            <div class="tooltip">Notifications</div>
+                        </div>
+                        <img class="my-channel" src="symbols/Image channel.jpg"></div>
+                    </header>
+                    <nav class="sidebar">
+                        <div class="sidebar-link">
+                            <img src="symbols/home.svg">
+                            <div>Home</div>
+                        </div>
+                        <div class="sidebar-link">
+                            <img src="symbols/explore.svg">
+                            <div>Explore</div>
+                        </div>
+                        <div class="sidebar-link">
+                            <img src="symbols/subscriptions.svg">
+                            <div>Subscriptions</div>
+                        </div>
+                        <div class="sidebar-link">
+                            <img src="symbols/originals.svg">
+                            <div>Originals</div>
+                        </div>
+                        <div class="sidebar-link">
+                            <img src="symbols/youtube-music.svg">
+                            <div>YouTube Music</div>
+                        </div>
+                        <div class="sidebar-link">
+                            <img src="symbols/library.svg">
+                            <div>Library</div>
+                        </div>
+                    </nav>
+                    <main>
+                        <section class="video-grid">
+                            <div class="video-card">
+                                <div class="thumbnail-container">
+                                    <a href="https://youtu.be/UPrkC1LdlLY?si=7lGzu7U7Lu2CWowY">
+                                        <img class="thumbnail" src="thumbnails/hq719.webp">
+                                    </a>
+                                    <div class="video-time">32:20</div>
+                                </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-profile-pic">
+                                        <a href="https://youtube.com/@mrbeast?si=3BjNk8Xz_dQvPEgP">
+                                            <img src="channelprofile/channels4_profile.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="video-info">
+                                        <p class="video-title">
+                                            <a class="video-link" href="https://youtu.be/UPrkC1LdlLY?si=7lGzu7U7Lu2CWowY">Survive 100 Days In Nuclear Bunker, Win $500,000</a>
+                                        </p>
+                                        <p class="channel-name">
+                                            <a class="channel-link" href="https://youtube.com/@mrbeast?si=3BjNk8Xz_dQvPEgP">MrBeast</a>
+                                        </p>
+                                        <p class="video-stats">207M views · 3 months ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-card">
+                                <div class="thumbnail-container">
+                                    <a href="https://youtu.be/9tBsMSDoDqk?si=RWJ_PPjzpJyzbtLp">
+                                        <img class="thumbnail" src="thumbnails/hq720.webp">
+                                    </a>
+                                    <div class="video-time">33:52</div>
+                                </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-profile-pic">
+                                        <a href="https://youtube.com/@agt?si=z7NYo5yVUIL5Zi6n">
+                                            <img src="channelprofile/channels5_profile.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="video-info">
+                                        <p class="video-title">
+                                            <a class="video-link" href="https://youtu.be/9tBsMSDoDqk?si=RWJ_PPjzpJyzbtLp">5 MAGICIANS that SHOCKED the judges! | AGT 2023</a>
+                                        </p>
+                                        <p class="channel-name">
+                                            <a class="channel-link" href="https://youtube.com/@agt?si=z7NYo5yVUIL5Zi6n">America's Got Talent
+                                            </a>
+                                        </p>
+                                        <p class="video-stats">
+                                            7.6M views · 11 months ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-card">
+                                <div class="thumbnail-container">
+                                    <a href="https://youtu.be/lMXh6vjiZrI?si=YzYnG_jZI3Sb6D1H">
+                                        <img class="thumbnail" src="thumbnails/hq721.webp">
+                                    </a>
+                                    <div class="video-time">2:24</div>
+                                </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-profile-pic">
+                                        <a href="https://youtube.com/@disney?si=cw6FcZhZ-cfP6JVX">
+                                            <img src="channelprofile/channels6_profile.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="video-info">
+                                        <p class="video-title">
+                                            <a class="video-link" href="https://youtu.be/lMXh6vjiZrI?si=YzYnG_jZI3Sb6D1H">Mufasa: The Lion King | Final Trailer</a>
+                                        </p>
+                                        <p class="channel-name">
+                                            <a class="channel-link" href="https://youtube.com/@disney?si=cw6FcZhZ-cfP6JVX">
+                                                Disney
+                                       </a>
+                                        </p>
+                                        <p class="video-stats">
+                                            2M views · 15 hours ago  </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-card">
+                                <div class="thumbnail-container">
+                                    <a href="https://youtu.be/V9PVRfjEBTI?si=cs2dab7r_y0OTNiF"
+                                    ><img class="thumbnail" src="thumbnails/hq722.webp">
+                                </a>
+                                <div class="video-time">3:51</div>
+                            </div>
+                            <div class="video-info-grid">
+                                <div class="channel-profile-pic">
+                                    <a href="https://youtube.com/@billieeilish?si=gv8zWDih3LADRwLc">
+                                        <img src="channelprofile/channels7_profile.jpg">
+                                    </a>
+                                </div>
+                                <div class="video-info">
+                                    <p class="video-title">
+                                        <a class="video-link" href="https://youtu.be/V9PVRfjEBTI?si=cs2dab7r_y0OTNiF">Billie Eilish - BIRDS OF A FEATHER (Official Music Video)</a>
+                                    </p>
+                                    <p class="channel-name">
+                                        <a class="channel-link" href="https://youtube.com/@billieeilish?si=gv8zWDih3LADRwLc">
+                                            Billie Eilish
+                                            </a>
+                                    </p>
+                                    <p class="video-stats"> 82M views · 1 month ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-card">
+                                    <div class="thumbnail-container">
+                                    <a href="https://youtu.be/VNMs0hniZSE?si=TkbeSpXvbZQGQZPQ">
+                                    <img class="thumbnail" src="thumbnails/hq723.webp">
+                                </a>
+                                    <div class="video-time">12:31</div>
+                            </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-profile-pic">
+                                    <a href="https://youtube.com/@karikku_fresh?si=FJBiv04sMOvbmJ84">
+                                    <img src="channelprofile/channels8_profile.jpg">
+                                </a>
+                                </div>
+                                <div class="video-info"><p class="video-title">
+                                    <a class="video-link" href="https://youtu.be/VNMs0hniZSE?si=TkbeSpXvbZQGQZPQ">JAM | Part 1 | Karikku | Comedy</a>
+                                </p>
+                                    <p class="channel-name">
+                                    <a class="channel-link" href="https://youtube.com/@karikku_fresh?si=FJBiv04sMOvbmJ84">Karikku</a>
+                                </p>
+                                    <p class="video-stats">7.9M views · 1 month ago</p>
+                                </div>
+                            </div>
+                            </div>
+                                <div class="video-card">
+                                    <div class="thumbnail-container">
+                                    <a href="https://youtu.be/MZmQAXxUvSE?si=e8ZMWqNDhTO_KXOd">
+                                    <img class="thumbnail" src="thumbnails/hq724.webp">
+                                </a>
+                                    <div class="video-time">10:11</div>
+                            </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-profile-pic">
+                                        <a href="https://youtube.com/@villagefoodchannelofficial?si=_IEjIKnJ-V3tZrVp">
+                                    <img src="channelprofile/channels9_profile.jpg">
+                                </a>
+                                </div>
+                                <div class="video-info">
+                                    <p class="video-title">
+                                    <a class="video-link" href="https://youtu.be/MZmQAXxUvSE?si=e8ZMWqNDhTO_KXOd">100 KG CHICKEN PICKLE | Traditional Chicken Pickle Recipe | Village style Cooking</a>
+                                </p>
+                                    <p class="channel-name">
+                                    <a class="channel-link" href="https://youtube.com/@villagefoodchannelofficial?si=_IEjIKnJ-V3tZrVp">Village Food Channel
+                                    </a>
+                                </p>
+                                    <p class="video-stats">
+                                        812K views · 1 month ago</p>
+                                </div>
+                            </div>
+                            </div>
+                                <div class="video-card">
+                                    <div class="thumbnail-container">
+                                    <a href="https://youtu.be/lwZJHHQ8ib4?si=jeMlVlA-WsQFMhd8">
+                                    <img class="thumbnail" src="thumbnails/hq725.webp">
+                                </a>
+                                    <div class="video-time">21:06</div>
+                            </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-profile-pic">
+                                    <a href="https://youtube.com/@stillwatchingnetflix?si=DIGdLIWdeW9ViLEy">
+                                    <img src="channelprofile/channels10_profile.jpg">
+                                </a>
+                                </div>
+                                <div class="video-info">
+                                    <p class="video-title">
+                                    <a class="video-link" href="https://youtu.be/lwZJHHQ8ib4?si=jeMlVlA-WsQFMhd8">Glass Bridge Game Full Scene | Squid Game | Netflix</a>
+                                </p>
+                                    <p class="channel-name">
+                                    <a class="channel-link" href="https://youtube.com/@stillwatchingnetflix?si=DIGdLIWdeW9ViLEy">
+                                        Still Watching Netflix
+                                        </a>
+                                </p>
+                                    <p class="video-stats">
+                                        5.1M views · 4 weeks ago</p>
+                                </div>
+                            </div>
+                            </div>
+                                <div class="video-card">
+                                    <div class="thumbnail-container">
+                                    <a href="https://youtu.be/GUfSHjgucts?si=bS5HYXMMlAbaK3BW">
+                                    <img class="thumbnail" src="thumbnails/hq726.webp">
+                                </a>
+                                    <div class="video-time">1:11</div>
+                            </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-profile-pic">
+                                    <a href="https://youtube.com/@trailerpropictures?si=Jfpmap6cLgTekUsu">
+                                    <img src="channelprofile/channels11_profile.jpg">
+                                </a>
+                                </div>
+                                <div class="video-info">
+                                    <p class="video-title">
+                                    <a class="video-link" href="https://youtu.be/GUfSHjgucts?si=bS5HYXMMlAbaK3BW">IRONMAN 4 Trailer (2024) | Robert Downey Jr | Marvel Studios</a>
+                                </p>
+                                    <p class="channel-name">
+                                    <a class="channel-link" href="https://youtube.com/@trailerpropictures?si=Jfpmap6cLgTekUsu">Trailer Pro Pictures
+                                    </a>
+                                </p>
+                                    <p class="video-stats">
+                                        1.3M views · 2 months ago </p>
+                                </div>
+                            </div>
+                            </div>
+                                <div class="video-card">
+                                    <div class="thumbnail-container">
+                                    <a href="https://youtu.be/VSs7ELqKsQY?si=2VwARaShZCFg8QCR">
+                                    <img class="thumbnail" src="thumbnails/hq727.webp">
+                                </a>
+                                    <div class="video-time">1:52</div>
+                            </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-profile-pic">
+                                    <a href="https://youtube.com/@j10effect?si=o5xUhthRnAP84_Fh">
+                                    <img src="channelprofile/channels12_profile.jpg">
+                                </a>
+                                </div>
+                                <div class="video-info">
+                                    <p class="video-title">
+                                    <a class="video-link" href="https://youtu.be/VSs7ELqKsQY?si=2VwARaShZCFg8QCR">Spiderman Trailer | Malayalam Version</a>
+                                </p>
+                                    <p class="channel-name">
+                                    <a class="channel-link" href="https://youtube.com/@j10effect?si=o5xUhthRnAP84_Fh">J10effect </a>
+                                </p>
+                                    <p class="video-stats">280K views · 3 months ago</p>
+                                </div>
+                            </div>
+                            </div>
+                                <div class="video-card">
+                                    <div class="thumbnail-container">
+                                    <a href="https://youtu.be/kyGijbeIk_w?si=Y02E4--VEoHR304V">
+                                    <img class="thumbnail" src="thumbnails/hq728.webp">
+                                </a>
+                                    <div class="video-time">3:54</div>
+                            </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-profile-pic">
+                                        <a href="https://youtube.com/@laharimusicindia?si=25kk-KmRSOosH828">
+                                    <img src="channelprofile/channels13_profile.jpg">
+                                </a>
+                                </div>
+                                <div class="video-info">
+                                    <p class="video-title">
+                                    <a class="video-link" href="https://youtu.be/kyGijbeIk_w?si=Y02E4--VEoHR304V">Dheera Dheera Full Video Song | KGF Malayalam Movie | Yash | Prashanth Neel | Hombale Films</a>
+                                </p>
+                                    <p class="channel-name">
+                                    <a class="channel-link" href="https://youtube.com/@laharimusicindia?si=25kk-KmRSOosH828">Lahari Music - TSeries</a>
+                                </p>
+                                    <p class="video-stats">14M views · 5 year ago</p>
+                                </div>
+                            </div>
+                            </div>
+                                <div class="video-card">
+                                    <div class="thumbnail-container">
+                                    <a href="https://youtu.be/IzEDne1d2m0?si=8DKXmUEKP6gkxGoD">
+                                    <img class="thumbnail" src="thumbnails/hq729.webp">
+                                </a>
+                                    <div class="video-time">14:16</div>
+                            </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-profile-pic">
+                                    <a href="https://youtube.com/@footballreview4k?si=uQi9HH4Kjbx7uhkE">
+                                    <img src="channelprofile/channels14_profile.jpg">
+                                </a>
+                                </div>
+                                <div class="video-info"><p class="video-title">
+                                    <a class="video-link" href="https://youtu.be/IzEDne1d2m0?si=8DKXmUEKP6gkxGoD">CR7 SCORED THE MOST BEAUTIFUL GOAL IN UCL HISTORY AND STOPPED THE WORLD SHOWING WHO IS THE KING</a>
+                                </p>
+                                    <p class="channel-name">
+                                    <a class="channel-link" href="https://youtube.com/@footballreview4k?si=uQi9HH4Kjbx7uhkE">
+                                        football review</a>
+                                </p>
+                                    <p class="video-stats">5.1M views · 8 months ago</p>
+                                </div>
+                            </div>
+                            </div>
+                                <div class="video-card">
+                                    <div class="thumbnail-container">
+                                    <a href="https://youtu.be/e9p4Epkqv0k?si=EnUUpdhavVHgVYR0">
+                                    <img class="thumbnail" src="thumbnails/hq732.webp">
+                                </a>
+                                    <div class="video-time">5:06</div>
+                                </div>
+                                <div class="video-info-grid">
+                                    <div class="channel-profile-pic">
+                                    <a href="https://youtube.com/@jobloanimatedvideos?si=8ME1M4SEqWBurrEO">
+                                    <img src="channelprofile/channels16_profile.jpg">
+                                </a>
+                                </div>
+                                <div class="video-info">
+                                    <p class="video-title">
+                                    <a class="video-link" href="https://youtu.be/e9p4Epkqv0k?si=EnUUpdhavVHgVYR0">KUNG FU PANDA 2 Clip - "Final Fight With Shen" (2011)</a>
+                                </p>
+                                    <p class="channel-name">
+                                    <a class="channel-link" href="https://youtube.com/@jobloanimatedvideos?si=8ME1M4SEqWBurrEO">JoBlo Animated Videos
 
-    <div class="video-preview">
-        <img class="thumbnail"    src="thumbnails/hq720.webp">
-        <p class="caption">Mr Bean Coffee Shop!| Mr Bean Animated season 3 | Full Episodes | Mr Bean
-        </p>
-        <p class="ytber">Mr Bean</p>
-        <p class="views">4.3M views  &#x2022; 9 months ago </p>
-        </div>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
+                                    </a>
+                                </p>
+                                    <p class="video-stats">24M views · 3 years ago</p>
+                                </div>
+                            </div>
+                            </div>
+                            </section>
+                            </main>
+                            </div>
+                                <footer class="Footer"></footer>
+                            </div>
+                                
+                            </body>
+                                </html>
